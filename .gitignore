@@ -1,0 +1,10 @@
+*.rar
+*.zip
+*.exe
+*.gz
+*.mp4
+/simulation
+/simulation_old
+*.msi
+*.jemdoc
+BackUP/
