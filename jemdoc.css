@@ -8,6 +8,12 @@ table#tlayout {
     background: rgba(255, 255, 255, 0.95); /* transparency */
 }
 
+/* Publications 页面更大宽度 */
+body.publications #layout-content {
+    width: 1400px;
+}
+
+
 /* Body styling */
 body {
     background: white;
