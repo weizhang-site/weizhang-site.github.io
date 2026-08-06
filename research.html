@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Research directions of Wei Zhang: machine learning and matrix recovery, channel estimation and localization, and diffusion models for image completion." />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="research.css" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<title>Research | Wei Zhang</title>
+</head>
+<body class="research-page">
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Wei Zhang</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="news.html">News</a></div>
+<div class="menu-item"><a href="group.html">Group</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+</td>
+<td id="layout-content">
+<main class="research-shell">
+  <header class="research-hero">
+    <h1>Research</h1>
+    <p class="lead">My research interests include machine learning and matrix recovery, channel estimation and localization, and diffusion models for image completion.</p>
+  </header>
+
+  <nav class="research-nav" aria-label="Research directions">
+    <a href="#matrix"><span>01</span>Machine Learning &amp; Matrix Recovery</a>
+    <a href="#wireless"><span>02</span>Channel Estimation &amp; Localization</a>
+    <a href="#vision"><span>03</span>Diffusion Models &amp; Image Completion</a>
+  </nav>
+
+  <section class="research-card" id="matrix">
+    <div class="research-copy">
+      <span class="research-number">Direction 01</span>
+      <h2>Machine Learning &amp; Matrix Recovery</h2>
+      <p>We study how latent low-dimensional structure can be recovered reliably from limited, noisy, or partially observed data. Our work combines low-rank modeling, side information, nonconvex optimization, and statistical learning theory to improve sample efficiency and robustness.</p>
+      <div class="research-tags"><span>Low-rank models</span><span>Matrix completion</span><span>RIP analysis</span><span>Optimization</span></div>
+      <div class="research-links">
+        <a href="https://proceedings.mlr.press/v267/chang25e.html">ICML 2025 paper</a>
+        <a href="https://proceedings.mlr.press/v238/zhang24d.html">AISTATS 2024 paper</a>
+        <a href="https://github.com/SRG-Lab-code/OCMC">Code</a>
+      </div>
+    </div>
+    <figure class="research-visual">
+      <img src="research-assets/matrix-completion.png" alt="Matrix completion under high and low sampling rates" />
+    </figure>
+  </section>
+
+  <section class="research-card" id="wireless">
+    <div class="research-copy">
+      <span class="research-number">Direction 02</span>
+      <h2>Channel Estimation &amp; Localization</h2>
+      <p>We design estimation and inference methods for millimeter-wave and reconfigurable wireless systems. Current interests include angular and delay estimation, tensor and subspace methods, movable antennas, and localization using direct and reflected propagation paths.</p>
+      <div class="research-tags"><span>mmWave MIMO</span><span>RIS</span><span>AoA / AoD</span><span>Tensor decomposition</span><span>Positioning</span></div>
+      <div class="research-links">
+        <a href="https://doi.org/10.1109/ICC59461.2026.11587922">ICC 2026 paper</a>
+        <a href="https://doi.org/10.1109/TWC.2023.3266457">TWC 2023 paper</a>
+        <a href="https://doi.org/10.1109/LWC.2024.3450592">IEEE WCL 2024 paper</a>
+      </div>
+    </div>
+    <figure class="research-visual">
+      <img src="research-assets/icc-positioning-framework.png" alt="Deep learning-based millimeter-wave positioning architecture with the indoor experiment environment" />
+    </figure>
+  </section>
+
+  <section class="research-card" id="vision">
+    <div class="research-copy">
+      <span class="research-number">Direction 03</span>
+      <h2>Diffusion Models &amp; Image Completion</h2>
+      <p>We study diffusion models for image completion, with an emphasis on reconstructing missing or corrupted regions while preserving the known visual context. Our interests include mask-guided diffusion, text-guided inpainting, structural priors, and efficient restoration sampling.</p>
+      <div class="research-tags"><span>Diffusion models</span><span>Image inpainting</span><span>Mask guidance</span><span>Text guidance</span><span>Image restoration</span></div>
+      <div class="research-links">
+        <a href="publications.html">View all publications</a>
+      </div>
+    </div>
+    <figure class="research-visual">
+      <div class="research-completion-pair">
+        <img src="research-assets/inpainting-masked-input.png" alt="Masked mountain image for the inpainting experiment" />
+        <span aria-hidden="true">→</span>
+        <img src="research-assets/inpainting-result.png" alt="Text-guided SD3 Flow mountain completion result" />
+      </div>
+    </figure>
+  </section>
+
+  <p class="research-footer-note">Across these directions, the common goal is to combine mathematical structure with data-driven learning - turning incomplete observations into reliable estimates, locations, and visual reconstructions.</p>
+</main>
+</td>
+</tr>
+</table>
+</body>
+</html>
